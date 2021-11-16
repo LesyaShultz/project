@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "aloe_bold";
+  src: url("../../fonts/aleo-bold-webfont.woff2") format("woff2");
+  src: url("../../fonts/aleo-italic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aloe_light";
+  src: url("../../fonts/aleo-light-webfont.woff2") format("woff2");
+  url: url("../../fonts/aleo-light-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sans_bold";
+  src: url("../../fonts/JosefinSans-Bold.ttf") format("ttf");
+  src: url("../../fonts/aleo-italic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 100vh;
+  max-width: 1800px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bhromaon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 260px;
+}
+.bhromaon__title {
+  font-family: "aloe_bold";
+  font-size: 48px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .bhromaon__title {
+    font-size: 45px;
+  }
+}
+.bhromaon__title2 {
+  font-family: "aloe_light";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.31em;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+.bhromaon__box {
+  padding-bottom: 120px;
+}
+.bhromaon__input {
+  max-width: 500px;
+  max-height: 60px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.bhromaon__btn {
+  font-family: "Conv_Josefin Sans";
+  max-width: 150px;
+  max-height: 59px;
+  border: 1px solid #ffffff;
+  margin-left: -4px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #5474fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}

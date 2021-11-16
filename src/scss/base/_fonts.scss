@@ -1,0 +1,24 @@
+
+@font-face {
+	font-family: "aloe_bold";
+    src: url("../../fonts/aleo-bold-webfont.woff2") format("woff2");
+	src: url("../../fonts/aleo-italic-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+    font-family:"aloe_light";
+    src: url("../../fonts/aleo-light-webfont.woff2") format("woff2");
+    url: url("../../fonts/aleo-light-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+} 
+
+@font-face {
+	font-family: "sans_bold";
+    src: url("../../fonts/JosefinSans-Bold.ttf") format("ttf");
+	src: url("../../fonts/aleo-italic-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
